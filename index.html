@@ -19,44 +19,48 @@
           <p>Berat badan ideal adalah impian semua orang. 
             Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, 
             berat badan ideal juga menandakan kondisi tubuh yang sehat.
-            Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI</p>
+            Bagaimana denganmu?</p>
         </article>
 
-        <aside class="image">
-          <img src="https://i.pinimg.com/736x/b7/01/91/b701919b8ade5ed491877c01eba31ed8.jpg" alt="hidup sehat" width="600">
-        </aside>
-
         <!-- Form -->
-         <form class="form">
-
-          <div class="form-group">
+         <form class="form" id="bmiForm">
+          <h3 style="text-align: center">Yuk, Cek BMI kamu Sekarang!</h3>
+          <div class="form-grup">
             <label>Jenis Kelamin:</label><br>
             <input type="radio" name="gender" value="Pria" checked> Pria
             <input type="radio" name="gender" value="Wanita"> Wanita
           </div>
           <div class="form-group">
             <label for="weight">Berat Badan (kg):</label>
-            <input type="number" id="weight">
+            <input type="number" id="weight" name="weight" required>
           </div>
           <div class="form-group">
             <label for="age">Usia (tahun):</label>
-            <input type="number" id="age">
+            <input type="number" id="age" name="age" required>
           </div>
           <div class="form-group">
             <label for="height">Tinggi Badan (cm):</label>
-            <input type="number" id="height">
+            <input type="number" id="height" name="height" required>
           </div>
           <div>
-            <button>Hitung BMI</button>
-            <button>Reset</button>
+            <button type="button" id="calculate">Hitung BMI</button>
+            <button type="reset">Reset</button>
           </div>
          </form>
 
+        <!-- Result -->
+          <div class="result" id="result">
+            <h2 style="text-align: center">Hasil</h2>
+            <p id="bmiStatus">-</p>
+            <p id="bmiValue">-</p>
+            <p id="bmiAdvice">-</p>
+          </div>
+
          <!-- Feature Information -->
           <div class="feature">
-            <h2>Feature Information</h2>
-            <h3>Keunggulan fitur</h3>
-            <ol>
+            <h2 style="text-align: center">Feature Information</h2>
+            <h3 style="margin:5px">Keunggulan fitur</h3>
+            <ol style="margin: 0">
                 <li>Menghitung berat badan</li>
                 <li>Menentukan kategori berat badan ideal atau tidak</li>
                 <li>Mempersiapkan program penurunan berat badan</li>
@@ -72,13 +76,6 @@
             </p>
           </div>
 
-          <!-- Result -->
-          <div class="result" id="result">
-            <h2>Hasil</h2>
-            <p id="bmiStatus">-</p>
-            <p id="bmiValue">-</p>
-            <p id="bmiAdvice">-</p>
-            </div>
       </main>
 
       <footer>
