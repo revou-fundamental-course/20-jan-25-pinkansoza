@@ -1,1 +1,75 @@
 /* Ini File CSS */
+header{
+    text-align: center;
+    background-color: #1A5319;
+    color: #FEF2F4;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#B2C9AD;
+}
+.container{
+    display: flex;
+}
+
+.image{
+    flex: 1;
+    text-align: center;
+}
+
+aside {
+    margin-left: 100px; 
+    margin-top: 50px;
+}
+main{
+    flex: 3;
+}
+
+.introduction {
+    margin: 15px; 
+    padding: 10px 20px 10px 20px;
+    background: #D6EFD8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form{
+    margin: 15px; 
+    padding: 20px;
+    background: #D6EFD8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature{
+    margin: 15px; 
+    padding: 20px;
+    background: #D6EFD8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result{
+    margin: 15px; 
+    padding: 20px;
+    background: #D6EFD8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #1A5319; 
+    color: #FEF2F4; 
+    text-align: center;
+    padding: 10px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+}
