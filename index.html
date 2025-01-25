@@ -13,7 +13,7 @@
         <h1>Kalkulator BMI</h1>
       </header>
 
-      <main callas="container">
+      <main>
         <!-- Introduction -->
         <article class="introduction">
           <p>Berat badan ideal adalah impian semua orang. 
@@ -23,7 +23,7 @@
         </article>
 
         <!-- Form -->
-         <form class="form" id="bmiForm">
+         <form class="form">
           <h3 style="text-align: center">Yuk, Cek BMI kamu Sekarang!</h3>
           <div class="form-grup">
             <label>Jenis Kelamin:</label><br>
@@ -50,11 +50,19 @@
 
         <!-- Result -->
           <div class="result" id="result">
-            <h2 style="text-align: center">Hasil</h2>
-            <p id="bmiGender"></p>
-            <p id="bmiStatus">-</p>
-            <p id="bmiValue">-</p>
-            <p id="bmiAdvice">-</p>
+            <h2 style="margin: 0">Hasil</h2>
+            <p id="bmiGender" style="margin: 0"></p>
+            <div class="status">
+              <h3 id="bmiStatus"></h3>
+              <h1 id="bmiValue">0</h1>
+            </div>
+            <div class="van">
+              <p id="bmiValueBottom"></p>
+              <p id="bmiAdvice"></p>
+              <p id="bmiNote"></p>
+              <a href="https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?af_sub1=sub%201&af_force_deeplink=true&af_cost_value=0&source_caller=bulk&pid=Web&is_retargeting=true&af_click_lookback=7d&shortlink=n5jecetf&af_adset=https:%2F%2Fwww.halodoc.com%2Fartikel%2Fini-rekomendasi-dokter-gizi-di-halodoc-yang-bisa-dihubungi&af_ad=Web_kategori_article&af_channel=Organic&af_cost_currency=USD&c=DoctorReco" class="button2">Konsultasi ke HaloDoc Sekarang</a>
+              <a href="https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?af_sub1=sub%201&af_force_deeplink=true&af_cost_value=0&source_caller=bulk&pid=Web&is_retargeting=true&af_click_lookback=7d&shortlink=n5jecetf&af_adset=https:%2F%2Fwww.halodoc.com%2Fartikel%2Fini-rekomendasi-dokter-gizi-di-halodoc-yang-bisa-dihubungi&af_ad=Web_kategori_article&af_channel=Organic&af_cost_currency=USD&c=DoctorReco" class="button2">Registrasi Online Sekarang</a>
+            </div>
           </div>
 
          <!-- Feature Information -->
@@ -76,7 +84,7 @@
               dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.
             </p>
           </div>
-
+      
       </main>
 
       <footer>
