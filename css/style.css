@@ -61,7 +61,7 @@ button[type="reset"] {
 }
 
 .button2{
-    display: inline-block;
+    display: none;
     margin: 10px 5px;
     padding: 10px 20px;
     background-color: #E78895;
@@ -70,7 +70,6 @@ button[type="reset"] {
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
-    visibility: hidden;
 }
 
 .button2:hover {
@@ -78,13 +77,13 @@ button[type="reset"] {
     color: #000000;
 }
 
-.button2.visible {
-    visibility: visible;
-}
-
 button:hover {
     background: #b2c0cf;
     color: #000000;
+}
+
+#result {
+    display: none;
 }
 
 .result{
