@@ -43,7 +43,7 @@ document.getElementById("calculate").addEventListener("click", function () {
     } else if (bmi >= 18.5 && bmi <= 24.9) {
         normal.style.display = "block"; // Tampilkan normal
         bmiStatus.textContent = "Berat badan ideal";
-        bmiValueBottom.textContent = "Hasil BMI diantara 18.5 dan 22.9";
+        bmiValueBottom.textContent = "Hasil BMI diantara 18.5 dan 24.9";
         bmiAdvice.textContent = "Anda berada dalam kategori berat badan yang normal. Tetap pertahankan berat badan Anda dan jaga berat badan Anda dengan mengatur keseimbangan antara pola makan dan aktivitas fisik Anda.";
     } else if (bmi >= 25 && bmi <= 29.9) {
         overweight.style.display = "block"; // Tampilkan overweight
