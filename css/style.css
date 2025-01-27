@@ -23,6 +23,10 @@ input[type=number]{
     border-radius: 5px;
 }
 
+h4{
+    margin: 10px;
+}
+
 .form-grup{
     padding-bottom: 16px;
 }
@@ -98,8 +102,28 @@ button:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.van{
+.van, .note{
     text-align: left ;
+}
+
+.content{
+    margin: 15px auto; 
+    padding: 20px 40px 20px 40px;
+    background-color: #FFEFEF;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.no-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 footer {

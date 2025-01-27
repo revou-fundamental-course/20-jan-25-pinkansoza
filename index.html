@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\style.css">
     <title>Kalkulator BMI</title>
@@ -26,11 +26,11 @@
         <div class="feature">
           <h2 style="text-align: center">Feature Information</h2>
           <h3 style="margin:5px">Keunggulan fitur</h3>
-          <ol style="margin: 0">
+          <ul style="margin: 0">
             <li>Menghitung berat badan</li>
             <li>Menentukan kategori berat badan ideal atau tidak</li>
             <li>Mempersiapkan program penurunan berat badan</li>
-          </ol>
+          </ul>
           <p>
           Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh
           mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya
@@ -78,12 +78,43 @@
             </div>
             <div class="van">
               <p id="bmiValueBottom"></p>
-              <p id="bmiAdvice"></p>
+              <p id="bmiAdvice"></p></div>
+              <div class="content">
+                <div id="underweight" style="display: none;">
+                    <h4>Berat Rendah dapat Menyebabkan berbagai Masalah Penyakit:</h4>
+                    <ol>
+                        <li>Infertilitas</li>
+                        <li>Anemia</li>
+                        <li>Osteoporosis</li>
+                        <li>Sistem Imun Lemah</li>
+                    </ol>
+                </div>
+                <div id="normal" style="display: none;">
+                  <h4>Beberapa Langkah agar Berat Badan Tetap Ideal:</h4>
+                  <ol>
+                      <li>Pola Makan Seimbang</li>
+                      <li>Rutin Berolahraga</li>
+                      <li>Istirahat yang Cukup</li>
+                      <li>Hidrasi yang Cukup</li>
+                  </ol>
+              </div>
+                <div id="overweight" style="display: none;">
+                    <h4>Beberapa penyakit yang berasal dari kegemukan:</h4>
+                    <ol>
+                        <li>Diabetes</li>
+                        <li>Hipertensi</li>
+                        <li>Sakit Jantung</li>
+                        <li>Osteoarthritis</li>
+                    </ol>
+                </div>
+            </div>
+              <div class="note">
               <p id="bmiNote"></p></div>
+
               <div>
               <a href="https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?af_sub1=sub%201&af_force_deeplink=true&af_cost_value=0&source_caller=bulk&pid=Web&is_retargeting=true&af_click_lookback=7d&shortlink=n5jecetf&af_adset=https:%2F%2Fwww.halodoc.com%2Fartikel%2Fini-rekomendasi-dokter-gizi-di-halodoc-yang-bisa-dihubungi&af_ad=Web_kategori_article&af_channel=Organic&af_cost_currency=USD&c=DoctorReco" class="button2">Konsultasi ke HaloDoc</a>
               <a href="https://www.halodoc.com/rumah-sakit" class="button2">Registrasi Online Sekarang</a>
-          </div>
+              </div>
       </main>
 
       <footer>
